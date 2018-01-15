@@ -163,6 +163,18 @@
     <Compile Include="Migrations\201712180803228_DataAnnotationsForActor.Designer.cs">
       <DependentUpon>201712180803228_DataAnnotationsForActor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801150713460_NewAnnotation.cs" />
+    <Compile Include="Migrations\201801150713460_NewAnnotation.Designer.cs">
+      <DependentUpon>201801150713460_NewAnnotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801150725123_MovieDataAnnotation.cs" />
+    <Compile Include="Migrations\201801150725123_MovieDataAnnotation.Designer.cs">
+      <DependentUpon>201801150725123_MovieDataAnnotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801150729253_RoleDataAnnotations.cs" />
+    <Compile Include="Migrations\201801150729253_RoleDataAnnotations.Designer.cs">
+      <DependentUpon>201801150729253_RoleDataAnnotations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Actor.cs" />
     <Compile Include="Models\Movie.cs" />
@@ -247,6 +259,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712180803228_DataAnnotationsForActor.resx">
       <DependentUpon>201712180803228_DataAnnotationsForActor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801150713460_NewAnnotation.resx">
+      <DependentUpon>201801150713460_NewAnnotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801150725123_MovieDataAnnotation.resx">
+      <DependentUpon>201801150725123_MovieDataAnnotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801150729253_RoleDataAnnotations.resx">
+      <DependentUpon>201801150729253_RoleDataAnnotations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

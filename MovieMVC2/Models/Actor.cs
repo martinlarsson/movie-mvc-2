@@ -14,6 +14,7 @@ namespace MovieMVC2.Models
         public string Name { get; set; }
         [Required(ErrorMessage = "You must enter a birth date")]
         public DateTime BirthDate { get; set; }
+        [Required(ErrorMessage = "Bio cannot be blank.")]
         public string Bio { get; set; }
         public virtual ICollection<Role> Roles { get; set; }
     }
